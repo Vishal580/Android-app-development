@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FDFBFB">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="168dp"
+        android:layout_height="55dp"
+        android:text="Sign up"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="40dp"
+        android:textColor="@color/material_dynamic_neutral0"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="127dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="50dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="221dp"
+        android:hint="Email Id"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="490dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/black"
+        android:text="Sing up"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="286dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="220dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="286dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="390dp"
+        android:ems="10"
+        android:hint="Mobile No."
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/image1" />
+
+
+</RelativeLayout>
