@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/student_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:hint="Student ID"
+        />
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:hint="Student Name"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Load All Students"
+        android:onClick="loadStudents"
+        android:textSize="10pt"
+        android:backgroundTint="#8BC34A"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Result"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="addStudent"
+        android:backgroundTint="#8BC34A"
+        android:textSize="10pt"
+        android:text="ADD" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="updateStudent"
+        android:backgroundTint="#8BC34A"
+        android:textSize="10pt"
+        android:text="UPDATE"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="deleteStudent"
+        android:backgroundTint="#CD3428"
+        android:textSize="10pt"
+        android:text="DELETE By Id"
+        />
+</LinearLayout>
