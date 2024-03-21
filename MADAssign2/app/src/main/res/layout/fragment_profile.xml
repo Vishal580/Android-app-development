@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0AAE3"
+    tools:context=".Profile">
+
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="484dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="205dp"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="225dp"
+        android:layout_height="219dp"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:layout_width="152dp"
+        android:layout_height="484dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:text="Team:"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="484dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="360dp"
+        android:text="Vishal Supriya Y S Pradhumna Yuvraj Pawar"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+
+
+
+</FrameLayout>
