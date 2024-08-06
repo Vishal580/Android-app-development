@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">program1 visiting card</string>
+    <string name="vishal">Vishal</string>
+    <string name="reva_university">REVA University</string>
+    <string name="know_more">Know more</string>
+    <string name="address_reva_university_kattigenahalli_bangalore_560_064">Address:REVA University, Kattigenahalli | Bangalore - 560 064</string>
+    <string name="ph_no_9876543210">Ph No: 9876543210</string>
+    <string name="email_id_soujanya_bk_reva_edu_in">Email Id: soujanya.bk@reva.edu.in</string>
+    <string name="assistant_professor_cse">Assistant Professor-CSE</string>
+    <string name="reva_logo">Reva logo</string>
+</resources>
