@@ -1,0 +1,16 @@
+[
+  {
+    "name":"HASSAN",
+    "lat":"12.295",
+    "long":"76.639",
+    "temperature":"22",
+    "humidity":"92%"
+  },
+  {
+    "name":"MANDYA",
+    "lat":"10.11",
+    "long":"66.639",
+    "temperature":"24",
+    "humidity":"82%"
+  }
+]
